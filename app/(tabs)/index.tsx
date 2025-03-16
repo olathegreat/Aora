@@ -9,8 +9,8 @@ import { StyleSheet } from 'react-native'
 // const StyledView = styled(View)
 const index = () => {
   return (
-    <View className='w-80 h-80  !bg-red-500' style={styles.container}>
-      <Text className="text-red-500">Aora</Text>
+    <View className='' style={styles.container}>
+      <Text className="text-green-600 font-semibold text-3xl">Aora</Text>
       <StatusBar style="auto"/>
       <Link href="/profile" style={{color:'blue'}}>Go to profile</Link>
       
